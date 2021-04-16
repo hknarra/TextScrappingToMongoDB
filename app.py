@@ -5,11 +5,6 @@ import pandas as pd
 import pymongo
 
 
-def getHTMLContent(link):
-    html = urlopen(link)
-    soup = BeautifulSoup(html, 'html.parser')
-    return soup
-
 #class = wikitable plainrowheaders sortable jquery-tablesorted
 wiki = 'https://en.wikipedia.org/wiki/Template:COVID-19_pandemic_data'
 
